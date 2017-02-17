@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0b0cbca-e7fd-4b73-abe1-2132925a7755" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/guesses/Guess.java" afterPath="$PROJECT_DIR$/src/main/model/guesses/Guess.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/guesses/GuessRepository.java" afterPath="$PROJECT_DIR$/src/main/model/guesses/GuessRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/guesses/GuessService.java" afterPath="$PROJECT_DIR$/src/main/model/guesses/GuessService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/pineapples/PinappleService.java" afterPath="$PROJECT_DIR$/src/main/model/pineapples/PinappleService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/pineapples/Pineapple.java" afterPath="$PROJECT_DIR$/src/main/model/pineapples/Pineapple.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/pineapples/PineappleRepository.java" afterPath="$PROJECT_DIR$/src/main/model/pineapples/PineappleRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/secret/Secret.java" afterPath="$PROJECT_DIR$/src/main/model/secret/Secret.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/model/guess/GuessTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,11 +78,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuessService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GuessService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/model/guesses/GuessService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuessTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/model/guess/GuessTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -197,6 +200,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guess" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -612,6 +619,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/model/guess/GuessTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
