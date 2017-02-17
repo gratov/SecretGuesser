@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SecretGuesser.iml" filepath="$PROJECT_DIR$/.idea/modules/SecretGuesser.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SecretGuesser_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SecretGuesser_main.iml" group="SecretGuesser" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SecretGuesser_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SecretGuesser_test.iml" group="SecretGuesser" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/secretguessinggame.iml" filepath="$PROJECT_DIR$/.idea/modules/secretguessinggame.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/secretguessinggame_main.iml" filepath="$PROJECT_DIR$/.idea/modules/secretguessinggame_main.iml" group="secretguessinggame" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/secretguessinggame_test.iml" filepath="$PROJECT_DIR$/.idea/modules/secretguessinggame_test.iml" group="secretguessinggame" />
