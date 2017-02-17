@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0b0cbca-e7fd-4b73-abe1-2132925a7755" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/guesses/Guess.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/guesses/GuessRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/guesses/GuessService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/pineapples/PinappleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/pineapples/Pineapple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/pineapples/PineappleRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/secret/Secret.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/guesses/Guess.java" afterPath="$PROJECT_DIR$/src/main/model/guesses/Guess.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/guesses/GuessRepository.java" afterPath="$PROJECT_DIR$/src/main/model/guesses/GuessRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/guesses/GuessService.java" afterPath="$PROJECT_DIR$/src/main/model/guesses/GuessService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/pineapples/PinappleService.java" afterPath="$PROJECT_DIR$/src/main/model/pineapples/PinappleService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/pineapples/Pineapple.java" afterPath="$PROJECT_DIR$/src/main/model/pineapples/Pineapple.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/pineapples/PineappleRepository.java" afterPath="$PROJECT_DIR$/src/main/model/pineapples/PineappleRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/secret/Secret.java" afterPath="$PROJECT_DIR$/src/main/model/secret/Secret.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,7 +26,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Guess.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/guesses/Guess.java">
+        <entry file="file://$PROJECT_DIR$/src/main/model/guesses/Guess.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
@@ -36,7 +36,7 @@
         </entry>
       </file>
       <file leaf-file-name="Pineapple.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/pineapples/Pineapple.java">
+        <entry file="file://$PROJECT_DIR$/src/main/model/pineapples/Pineapple.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
@@ -46,7 +46,7 @@
         </entry>
       </file>
       <file leaf-file-name="PineappleRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/pineapples/PineappleRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/model/pineapples/PineappleRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
@@ -56,7 +56,7 @@
         </entry>
       </file>
       <file leaf-file-name="PinappleService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/pineapples/PinappleService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/model/pineapples/PinappleService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
@@ -66,7 +66,7 @@
         </entry>
       </file>
       <file leaf-file-name="Secret.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/secret/Secret.java">
+        <entry file="file://$PROJECT_DIR$/src/main/model/secret/Secret.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
@@ -76,7 +76,7 @@
         </entry>
       </file>
       <file leaf-file-name="GuessRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/guesses/GuessRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/model/guesses/GuessRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
@@ -86,7 +86,7 @@
         </entry>
       </file>
       <file leaf-file-name="GuessService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/model/guesses/GuessService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/model/guesses/GuessService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
@@ -138,6 +138,13 @@
     </option>
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/model/guesses/GuessService.java" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -207,6 +214,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SecretGuesser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SecretGuesser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -229,6 +258,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -248,6 +281,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -523,7 +560,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/guesses/Guess.java">
+    <entry file="file://$PROJECT_DIR$/src/main/model/guesses/Guess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
@@ -531,7 +568,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/pineapples/Pineapple.java">
+    <entry file="file://$PROJECT_DIR$/src/main/model/pineapples/Pineapple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
@@ -539,7 +576,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/pineapples/PineappleRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/model/pineapples/PineappleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
@@ -547,7 +584,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/pineapples/PinappleService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/model/pineapples/PinappleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
@@ -555,7 +592,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/secret/Secret.java">
+    <entry file="file://$PROJECT_DIR$/src/main/model/secret/Secret.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
@@ -563,7 +600,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/guesses/GuessRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/model/guesses/GuessRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
@@ -571,7 +608,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/guesses/GuessService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/model/guesses/GuessService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
