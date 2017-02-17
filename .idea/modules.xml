@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SecretGuesser.iml" filepath="$PROJECT_DIR$/SecretGuesser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/secretguessinggame.iml" filepath="$PROJECT_DIR$/.idea/modules/secretguessinggame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/secretguessinggame_main.iml" filepath="$PROJECT_DIR$/.idea/modules/secretguessinggame_main.iml" group="secretguessinggame" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/secretguessinggame_test.iml" filepath="$PROJECT_DIR$/.idea/modules/secretguessinggame_test.iml" group="secretguessinggame" />
     </modules>
   </component>
 </project>
