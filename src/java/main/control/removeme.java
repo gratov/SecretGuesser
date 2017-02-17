@@ -1,7 +1,7 @@
-package main.model.guesses;
+package control;
 
 /**
  * Created by stijnli on 17/02/2017.
  */
-public class Guess {
+public class removeme {
 }
